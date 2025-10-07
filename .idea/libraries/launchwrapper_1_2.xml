@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="launchwrapper-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libraries/org/mcphackers/launchwrapper/1.2/launchwrapper-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
