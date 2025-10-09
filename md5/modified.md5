@@ -322,7 +322,7 @@ net/minecraft/src/ThreadSleepForever de3ddbe3256023bcf230845e71980be6
 net/minecraft/src/WorldRenderer 6d58f3ecbf721280ae8151e31e92d999
 net/minecraft/src/ItemSeeds 8048291e5bb869064dddd849037939a3
 net/minecraft/src/Packet5PlayerInventory 9c0c64caff908df24fff183dace87253
-net/minecraft/src/World 7a0d68c9c0b2d79571338cb4c92dd0f6
+net/minecraft/src/World db5bbb9cd7503e3831341ce2f8cd64f1
 net/minecraft/src/EntityFX 6d9f3cbaa4bed4cb1921d7c8cbfd4e8d
 net/minecraft/src/ItemFood a7b598a12bb9617c85b4fa05194bff48
 net/minecraft/src/TextureLavaFlowFX 5e6397785cacbdaef943e98b3249426b
