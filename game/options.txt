@@ -1,8 +1,8 @@
-music:1.0
+music:0.74647886
 sound:0.5422535
 invertYMouse:false
 mouseSensitivity:0.5
-viewDistance:1
+viewDistance:0
 bobView:true
 anaglyph3d:false
 limitFramerate:false
