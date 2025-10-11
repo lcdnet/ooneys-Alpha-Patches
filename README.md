@@ -62,6 +62,7 @@ This mod serves to provide an accessible alpha experience, without compromising 
 - Install MultiMC or Prism Launcher:
 
 MultiMC: https://multimc.org/#Download
+
 Prism Launcher: https://prismlauncher.org/
 
 - Click 'Add Instance' on the top left (after registering your account)
