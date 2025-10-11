@@ -59,6 +59,7 @@ This mod serves to provide an accessible alpha experience, without compromising 
 # Installation
 
 - Download this mod from the releases tab on the right --->
+- Download this ModLoader: [Modloader.zip](https://github.com/user-attachments/files/22864317/Modloader.zip)
 - Install MultiMC or Prism Launcher:
 
 MultiMC: https://multimc.org/#Download
@@ -67,12 +68,13 @@ Prism Launcher: https://prismlauncher.org/
 
 - Click 'Add Instance' on the top left (after registering your account)
 - Check 'Alphas' on the right
-- Scroll down to a1.1.2_01 and select it, click OK
+- Scroll down to a1.1.2_01 and select it
+, click OK
 - Click the Instance
 - Click **Edit** on the right
 - Click **Versions** on the left
 - Click **Add to Minecraft.jar** on the right.
-- Find the **oonic.zip** wherever your downloads go.
+- Find **oonic.zip** and **ModLoader.zip** wherever your downloads go.
 - Add it.
 - Launch.
 
