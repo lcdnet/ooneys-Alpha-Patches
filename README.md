@@ -17,11 +17,12 @@ If you wish to have less tweaks than what the latest has, consider downgrading t
 
 - Slightly buffed Furnace Minecart's speed (50%)
 
-- Fixed Debug Sheep Drop Rates (also fixed for 1.7.1 build, post an issue if this occurs in any other build).
+- Fixed Debug Sheep Drop Rates
 
 #### 1.7.1 - Orientation Placementation
 
 - Stairs and Furnaces no longer rotate based off of their neighboring blocks, but rather which direction the player is facing.
+- Had an accidental debug feature where sheep dropped 40 wool upon shearing, this build will be replaced by 1.7.2.
 
 #### 1.7.0 - Sky's Not The Limit
 
