@@ -11,7 +11,11 @@ This mod serves to provide an accessible alpha experience, without compromising 
 
 ### Features (In order, descending version)
 
-#### Latest (1.7.0) - Sky's Not The Limit
+#### Latest (1.7.1) - Orientation Placementation
+
+- Stairs and Furnaces no longer rotate based off of their neighboring blocks, but rather which direction the player is facing.
+
+#### 1.7.0 - Sky's Not The Limit
 
 - A Double Build Limit (128 --> 256)
 
