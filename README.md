@@ -2,7 +2,9 @@
 
 ### This mod is made for Minecraft Alpha 1.1.2_01.
 
-This mod serves to provide an accessible alpha experience, without compromising on any vanilla features. Mainly back-porting utility features.
+This mod serves to provide an accessible alpha experience, without compromising on any vanilla features. Mainly back-porting utility features or giving niche features more use (Furnace Minecart).
+
+If you wish to have less tweaks than what the latest has, consider downgrading to an older version of this mod.
 
 ##### Scroll down for installation help.
 
@@ -11,7 +13,13 @@ This mod serves to provide an accessible alpha experience, without compromising 
 
 ### Features (In order, descending version)
 
-#### Latest (1.7.1) - Orientation Placementation
+#### Latest (1.7.2) - I Like Trains
+
+- Slightly buffed Furnace Minecart's speed (50%)
+
+- Fixed Debug Sheep Drop Rates (also fixed for 1.7.1 build, post an issue if this occurs in any other build).
+
+#### 1.7.1 - Orientation Placementation
 
 - Stairs and Furnaces no longer rotate based off of their neighboring blocks, but rather which direction the player is facing.
 
