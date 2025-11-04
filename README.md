@@ -18,6 +18,8 @@ If you wish to have less tweaks than what the latest has, consider downgrading t
 - Slightly buffed Furnace Minecart's speed (50%)
 
 - Fixed Debug Sheep Drop Rates
+  
+- Fixed Rail Crash
 
 #### 1.7.1 - Orientation Placementation
 
