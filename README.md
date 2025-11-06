@@ -40,6 +40,8 @@ Personally, I created this as a way for me to get into Minecraft modding. I main
 
 #### Latest (1.7.4) - Zooming
 
+- (_01): Replaced FOV Dialing (Version 1.5 Addition) with an FOV Slider in the options menu.
+
 - Added the ability to zoom with G
 
 - Added key bind customizability to zooming and toggling perspective
