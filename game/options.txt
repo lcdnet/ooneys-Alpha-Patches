@@ -1,5 +1,5 @@
-music:0.74647886
-sound:0.5422535
+music:0.5422535
+sound:0.5140845
 invertYMouse:false
 mouseSensitivity:0.5
 viewDistance:0
@@ -18,3 +18,5 @@ key_Drop:37
 key_Inventory:18
 key_Chat:21
 key_Toggle fog:45
+key_Zoom:34
+key_Perspective:63
