@@ -13,7 +13,6 @@ If you wish to have less tweaks than what the latest has, consider downgrading t
 # Installation
 
 - Download this mod from the releases tab on the right --->
-- Download this ModLoader: [Modloader.zip](https://github.com/user-attachments/files/22864317/Modloader.zip)
 - Install MultiMC or Prism Launcher:
 
 MultiMC: https://multimc.org/#Download
@@ -28,7 +27,7 @@ Prism Launcher: https://prismlauncher.org/
 - Click **Edit** on the right
 - Click **Versions** on the left
 - Click **Add to Minecraft.jar** on the right.
-- Find **oonic.zip** and **ModLoader.zip** wherever your downloads go.
+- Find **oonic.zip** wherever your downloads are.
 - Add it.
 - Launch.
 
