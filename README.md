@@ -13,7 +13,19 @@ If you wish to have less tweaks than what the latest has, consider downgrading t
 
 ### Features (In order, descending version)
 
-#### Latest (1.7.2) - I Like Trains
+#### Latest (1.7.4) - Zooming
+
+- Added the ability to zoom with G
+
+- Added key bind customizability to zooming and toggling perspective
+
+- The user no longer has to hold down F3 to enter the debug menu.
+
+#### 1.7.3 - ModLoader
+
+- Added a ModLoader, takes in mods starting with "mod_"
+
+#### 1.7.2 - I Like Trains
 
 - Slightly buffed Furnace Minecart's speed (50%)
 
