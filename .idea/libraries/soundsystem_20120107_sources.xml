@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="soundsystem-20120107-sources">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

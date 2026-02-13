@@ -1,9 +1,17 @@
 <component name="libraryTable">
   <library name="libraryjavasound-20101123">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

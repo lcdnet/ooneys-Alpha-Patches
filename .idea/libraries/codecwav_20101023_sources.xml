@@ -3,7 +3,7 @@
     <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../libraries/com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

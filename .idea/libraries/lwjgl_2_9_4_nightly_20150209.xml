@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="lwjgl-2.9.4-nightly-20150209">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -7,26 +7,22 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jars" level="project" />
+    <orderEntry type="library" name="junit.jupiter" level="project" />
     <orderEntry type="library" name="natives" level="project" />
-    <orderEntry type="library" name="codecjorbis-20230120" level="project" />
-    <orderEntry type="library" name="codecjorbis-20230120-sources" level="project" />
-    <orderEntry type="library" name="codecwav-20101023" level="project" />
-    <orderEntry type="library" name="codecwav-20101023-sources" level="project" />
-    <orderEntry type="library" name="libraryjavasound-20101123-sources" level="project" />
-    <orderEntry type="library" name="libraryjavasound-20101123" level="project" />
-    <orderEntry type="library" name="librarylwjglopenal-20100824-sources" level="project" />
-    <orderEntry type="library" name="soundsystem-20120107-sources" level="project" />
-    <orderEntry type="library" name="jinput-2.0.5" level="project" />
-    <orderEntry type="library" name="jinput-platform-2.0.5-natives-osx" level="project" />
-    <orderEntry type="library" name="jutils-1.0.0" level="project" />
     <orderEntry type="library" name="json-20230311" level="project" />
+    <orderEntry type="library" name="lwjgl-platform-2.9.4-nightly-20150209" level="project" />
+    <orderEntry type="library" name="lwjgl-platform-2.9.4-nightly-20150209-natives-osx" level="project" />
     <orderEntry type="library" name="lwjgl-2.9.4-nightly-20150209" level="project" />
     <orderEntry type="library" name="lwjgl_util-2.9.4-nightly-20150209" level="project" />
     <orderEntry type="library" name="launchwrapper-1.2" level="project" />
+    <orderEntry type="library" name="asm-tree-9.9" level="project" />
     <orderEntry type="library" name="asm-9.9" level="project" />
     <orderEntry type="library" name="asm-commons-9.9" level="project" />
-    <orderEntry type="library" name="asm-tree-9.9" level="project" />
-    <orderEntry type="library" name="junit.jupiter" level="project" />
+    <orderEntry type="library" name="codecwav-20101023" level="project" />
+    <orderEntry type="library" name="codecwav-20101023-sources" level="project" />
+    <orderEntry type="library" name="soundsystem-20120107" level="project" />
+    <orderEntry type="library" name="soundsystem-20120107-sources" level="project" />
+    <orderEntry type="library" name="libraryjavasound-20101123" level="project" />
+    <orderEntry type="library" name="jars" level="project" />
   </component>
 </module>

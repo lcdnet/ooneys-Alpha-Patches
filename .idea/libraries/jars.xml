@@ -1,10 +1,13 @@
 <component name="libraryTable">
   <library name="jars">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jars/deobfuscated.jar!/" />
-      <root url="jar://$PROJECT_DIR$/jars/deobfuscated-source.jar!/" />
+      <root url="file://$USER_HOME$/Documents/mcptest/minecraft/jars" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/mcptest/minecraft/jars" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Documents/mcptest/minecraft/jars" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/mcptest/minecraft/jars" recursive="false" type="SOURCES" />
   </library>
 </component>
