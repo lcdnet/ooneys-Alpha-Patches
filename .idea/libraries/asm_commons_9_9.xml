@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="asm-commons-9.9">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libraries/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/mcptest/libraries/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
