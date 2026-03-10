@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4104bd2-c310-47db-9f41-8a96d2f3dcbd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="33i6i3AO2PXaPNbAIeBPBJcngSa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Start Client.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.4597701",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Start Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.mcphackers.launchwrapper.Launch" />
+      <module name="minecraft" />
+      <option name="PROGRAM_PARAMETERS" value="--username Player --session - --version a1.1.2_01 --gameDir $PROJECT_DIR$/game --assetsDir $PROJECT_DIR$/game/assets --assetIndex a1.0.14 --accessToken - --userProperties {} --userType legacy --versionType release --skinProxy pre-b1.9-pre4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../minecraft_any" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4104bd2-c310-47db-9f41-8a96d2f3dcbd" name="Changes" comment="" />
+      <created>1759787668727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759787668727</updated>
+    </task>
+    <servers />
+  </component>
+</project>
