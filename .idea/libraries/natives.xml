@@ -3,7 +3,7 @@
     <CLASSES />
     <JAVADOC />
     <NATIVE>
-      <root url="file://$PROJECT_DIR$/../libraries/natives" />
+      <root url="file://$USER_HOME$/Documents/mcptest/libraries/natives" />
     </NATIVE>
     <SOURCES />
   </library>
