@@ -1,12 +1,13 @@
-music:0.5422535
-sound:0.5140845
+fov: 53.661972
+music:0.33802816
+sound:0.48591548
 invertYMouse:false
 mouseSensitivity:0.5
 viewDistance:0
 bobView:true
 anaglyph3d:false
 limitFramerate:false
-difficulty:2
+difficulty:0
 fancyGraphics:true
 key_Forward:17
 key_Left:30
@@ -19,4 +20,4 @@ key_Inventory:18
 key_Chat:21
 key_Toggle fog:45
 key_Zoom:34
-key_Perspective:63
+key_Perspective:46
