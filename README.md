@@ -38,7 +38,11 @@ Personally, I created this as a way for me to get into Minecraft modding. I main
 
 ### Features (In order, descending version)
 
-#### Latest (1.7.4) - Zooming
+#### Latest (1.7.5) - Too Much Clock
+
+- Added customizabilities to the clock on the top left such as date truncation, date format changes, showing MC timetables, etc.
+
+#### 1.7.4 - Zooming
 
 - (_01): Replaced FOV Dialing (Version 1.5 Addition) with an FOV Slider in the options menu.
 
