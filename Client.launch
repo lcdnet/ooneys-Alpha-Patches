@@ -15,6 +15,6 @@
 	<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 	<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.mcphackers.launchwrapper.Launch"/>
 	<stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Minecraft Client"/>
-	<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--username Player --session - --version a1.1.2_01 --gameDir /Users/levi/Documents/mcptest/minecraft/game --assetsDir /Users/levi/Documents/mcptest/minecraft/game/assets --assetIndex a1.0.14 --accessToken - --userProperties {} --userType legacy --versionType release --skinProxy pre-b1.9-pre4"/>
+	<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--username Player --session - --version a1.1.2_01 --gameDir /Users/levi/GitHub/ooneys-Alpha-Patches/game --assetsDir /Users/levi/GitHub/ooneys-Alpha-Patches/game/assets --assetIndex a1.0.14 --accessToken - --userProperties {} --userType legacy --versionType release --skinProxy pre-b1.9-pre4"/>
 	<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Minecraft Client"/>
 </launchConfiguration>
