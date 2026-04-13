@@ -38,9 +38,14 @@ Personally, I created this as a way for me to get into Minecraft modding. I main
 
 ### Features (In order, descending version)
 
-#### Latest (1.7.5) - Too Much Clock
+#### LATEST (1.7.6) - CAPES!!!
+
+- Backported capes to alpha 1.1.2_01. Check the releases tab under that version and copy/paste the proxy information into your Java Arguments.
+
+#### 1.7.5 - Too Much Clock
 
 - Added customizabilities to the clock on the top left such as date truncation, date format changes, showing MC timetables, etc.
+- Tons of compatibility/bug fixes independently and dependently of my [Nether Reactor mod.](https://github.com/ooneykabooey/ooneys-Alpha-Nether-Reactor)
 
 #### 1.7.4 - Zooming
 
