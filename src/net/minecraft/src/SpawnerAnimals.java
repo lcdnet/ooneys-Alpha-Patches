@@ -31,8 +31,8 @@ public class SpawnerAnimals {
 	protected ChunkPosition getRandomSpawningPointInChunk(World var1, int var2, int var3) {
         Chunk var4 = var1.getChunkFromChunkCoords(var2, var3);
         int var5 = var2 * 16 + var1.rand.nextInt(16);
+		int var7 = var1.rand.nextInt(var4 == null ? 256 : (var4.blocks2 == null ? 127 : 255));
         int var6 = var3 * 16 + var1.rand.nextInt(16); /// SEE ABOUT
-        int var7 = var1.rand.nextInt(var4 == null ? 256 : (var4.blocks2 == null ? 127 : 255));
 		return new ChunkPosition(var5, var7, var6);
 	}
 

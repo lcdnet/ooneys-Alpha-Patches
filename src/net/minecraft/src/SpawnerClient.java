@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 class SpawnerClient extends SpawnerAnimals {
 	final PlayerControllerSP playerController;
+	private boolean unusedBoolean;
 
 	SpawnerClient(PlayerControllerSP var1, int var2, Class var3, Class[] var4) {
 		super(var2, var3, var4);
