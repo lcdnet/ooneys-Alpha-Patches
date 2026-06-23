@@ -1085,18 +1085,35 @@ public class RenderGlobal implements IWorldAccess {
 	}
 
 	public void obtainEntitySkin(Entity var1) {
-		var1.updateCloak();
-		if(var1.skinUrl != null) {
-			this.renderEngine.obtainImageData(var1.skinUrl, new ImageBufferDownload());
+		if (var1 instanceof EntityPlayer) {
+			EntityPlayer player = (EntityPlayer) var1;
+			String capeType = CapeManager.getPlayerCape(player.username);
+
+			if (!capeType.equals("none")) {
+				player.updateSpecialCloak("/cape/" + capeType + ".png");
+			} else if (capeType.equals("none")) {
+				player.updateCloak();
+			}
 		}
 
 		if(var1.cloakUrl != null) {
 			this.renderEngine.obtainImageData(var1.cloakUrl, new ImageBufferDownload());
 		}
 
-	}
+
+		if(var1.skinUrl != null) {
+			this.renderEngine.obtainImageData(var1.skinUrl, new ImageBufferDownload());
+		}
+
+
+}
 
 	public void releaseEntitySkin(Entity var1) {
+
+		if (var1.cloakUrl != null) {
+			this.renderEngine.obtainImageData(var1.cloakUrl, new ImageBufferDownload());
+		}
+
 		if(var1.skinUrl != null) {
 			this.renderEngine.releaseImageData(var1.skinUrl);
 		}

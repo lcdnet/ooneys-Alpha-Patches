@@ -68,6 +68,10 @@ public class EntityPlayer extends EntityLiving {
 		this.inventory.decrementAnimations();
 		this.prevCameraYaw = this.cameraYaw;
 		super.onLivingUpdate();
+		this.updatePlayerActionState();
+	}
+
+	protected void updatePlayerActionState() {
 		float var1 = MathHelper.sqrt_double(this.motionX * this.motionX + this.motionZ * this.motionZ);
 		float var2 = (float)Math.atan(-this.motionY * (double)0.2F) * 15.0F;
 		if(var1 > 0.1F) {
@@ -298,4 +302,12 @@ public class EntityPlayer extends EntityLiving {
 		this.playerCloakUrl = "http://s3.amazonaws.com/MinecraftCloaks/" + this.username + ".png";
 		this.cloakUrl = this.playerCloakUrl;
 	}
+
+	// specialized for certain usernames
+	public void updateSpecialCloak(String url) {
+		this.playerCloakUrl = url;
+		this.cloakUrl = this.playerCloakUrl;
+	}
+
+
 }

@@ -38,7 +38,8 @@ public class RenderPlayer extends RenderLiving {
 	public void renderPlayer(EntityPlayer var1, double var2, double var4, double var6, float var8, float var9) {
 		ItemStack var10 = var1.inventory.getCurrentItem();
 		this.modelArmorChestplate.heldItemRight = this.modelArmor.heldItemRight = this.modelBipedMain.heldItemRight = var10 != null;
-		this.modelArmorChestplate.isSneak = this.modelArmor.isSneak = this.modelBipedMain.isSneak = var1.isSneaking();
+		this.modelArmorChestplate.isSneak = this.modelArmor.isSneak;
+	    this.modelBipedMain.isSneak = var1.isSneaking();
 		super.doRenderLiving(var1, var2, var4 - (double)var1.yOffset, var6, var8, var9);
 		this.modelArmorChestplate.isSneak = this.modelArmor.isSneak = this.modelBipedMain.isSneak = false;
 		this.modelArmorChestplate.heldItemRight = this.modelArmor.heldItemRight = this.modelBipedMain.heldItemRight = false;
@@ -101,7 +102,15 @@ public class RenderPlayer extends RenderLiving {
 			}
 		}
 
-		if(this.loadDownloadableImageTexture(var1.playerCloakUrl, (String)null)) {
+		boolean var21 = false;
+		if (var1.playerCloakUrl != null && var1.playerCloakUrl.startsWith("/")) {
+			this.loadTexture(var1.playerCloakUrl);
+			var21 = true;
+		} else {
+			var21 = this.loadDownloadableImageTexture(var1.playerCloakUrl, (String)null);
+		}
+
+		if(var21) {
 			GL11.glPushMatrix();
 			GL11.glTranslatef(0.0F, 0.0F, 2.0F / 16.0F);
 			double var20 = var1.field_20066_r + (var1.field_20063_u - var1.field_20066_r) * (double)var2 - (var1.prevPosX + (var1.posX - var1.prevPosX) * (double)var2);

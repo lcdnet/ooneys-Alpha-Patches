@@ -183,6 +183,10 @@ public abstract class Minecraft implements Runnable {
 			this.displayGuiScreen(new GuiMainMenu());
 		}
 
+		if (this.session != null) {
+			CapeManager.loadLocalPlayerCapeAtLaunch(this.session.username);
+		}
+
 	}
 
 	private void loadScreen() throws LWJGLException {
@@ -1117,7 +1121,7 @@ public abstract class Minecraft implements Runnable {
 		if(var0 != null && var1 != null) {
 			var7.session = new Session(var0, var1);
 		} else {
-			var7.session = new Session("Player" + System.currentTimeMillis() % 1000L, "");
+			var7.session = new Session("mofz" + System.currentTimeMillis() % 1000L, "");
 		}
 
 		if(var2 != null) {
@@ -1133,7 +1137,7 @@ public abstract class Minecraft implements Runnable {
 
 
 	public static void main(String[] var0) {
-		String var1 = "Player" + System.currentTimeMillis() % 1000L;
+		String var1 = "mofz" + System.currentTimeMillis() % 1000L;
 		if(var0.length > 0) {
 			var1 = var0[0];
 		}

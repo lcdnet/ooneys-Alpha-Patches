@@ -842,4 +842,6 @@ public abstract class Entity {
 	public void updateCloak() {
 	}
 
+	public void updateSpecialCloak(String capeType) {}
+
 }

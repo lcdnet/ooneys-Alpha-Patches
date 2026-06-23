@@ -78,21 +78,7 @@ public class EntityOtherPlayerMP extends EntityPlayer {
 		}
 
 		this.prevCameraYaw = this.cameraYaw;
-		float var9 = MathHelper.sqrt_double(this.motionX * this.motionX + this.motionZ * this.motionZ);
-		float var2 = (float)Math.atan(-this.motionY * (double)0.2F) * 15.0F;
-		if(var9 > 0.1F) {
-			var9 = 0.1F;
-		}
 
-		if(!this.onGround || this.health <= 0) {
-			var9 = 0.0F;
-		}
-
-		if(this.onGround || this.health <= 0) {
-			var2 = 0.0F;
-		}
-
-		this.cameraYaw += (var9 - this.cameraYaw) * 0.4F;
-		this.cameraPitch += (var2 - this.cameraPitch) * 0.8F;
+		this.updatePlayerActionState();
 	}
 }
