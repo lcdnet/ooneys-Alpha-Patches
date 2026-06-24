@@ -102,12 +102,32 @@ public class RenderPlayer extends RenderLiving {
 			}
 		}
 
-		boolean var21 = false;
-		if (var1.playerCloakUrl != null && var1.playerCloakUrl.startsWith("/")) {
-			this.loadTexture(var1.playerCloakUrl);
-			var21 = true;
+		boolean var21 = false; // Indicates if a cape texture was successfully loaded
+
+		// If capeNeedsUpdate is true, it means playerCloakUrl might have changed,
+		// so we need to attempt to load the new texture.
+		// loadDownloadableImageTexture will handle whether it needs to download or use a cached one.
+		if (var1.capeNeedsUpdate) {
+			if (var1.playerCloakUrl != null) {
+				if (var1.playerCloakUrl.startsWith("/")) {
+					this.loadTexture(var1.playerCloakUrl);
+					var21 = true;
+				} else {
+					var21 = this.loadDownloadableImageTexture(var1.playerCloakUrl, (String)null);
+				}
+			}
+			var1.capeNeedsUpdate = false; // Reset the flag after attempting to load
 		} else {
-			var21 = this.loadDownloadableImageTexture(var1.playerCloakUrl, (String)null);
+			// If no update is explicitly needed, still try to load the cape if playerCloakUrl is set.
+			// This covers initial loading or cases where the texture might have been unloaded.
+			if (var1.playerCloakUrl != null) {
+				if (var1.playerCloakUrl.startsWith("/")) {
+					this.loadTexture(var1.playerCloakUrl);
+					var21 = true;
+				} else {
+					var21 = this.loadDownloadableImageTexture(var1.playerCloakUrl, (String)null);
+				}
+			}
 		}
 
 		if(var21) {

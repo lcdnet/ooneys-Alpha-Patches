@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import java.util.List;
+import net.minecraft.src.CapeCacheManager;
+import net.minecraft.src.CapeManager; // Import the CapeManager
 
 public class EntityPlayer extends EntityLiving {
 	public InventoryPlayer inventory = new InventoryPlayer(this);
@@ -19,6 +21,7 @@ public class EntityPlayer extends EntityLiving {
 	public double field_20063_u;
 	public double field_20062_v;
 	public double field_20061_w;
+	public boolean capeNeedsUpdate = false; // New field to flag cape re-evaluation
 
 
 	public EntityPlayer(World var1) {
@@ -299,14 +302,53 @@ public class EntityPlayer extends EntityLiving {
 	}
 
 	public void updateCloak() {
-		this.playerCloakUrl = "http://s3.amazonaws.com/MinecraftCloaks/" + this.username + ".png";
-		this.cloakUrl = this.playerCloakUrl;
+		// Check persistent cache first for a full cape URL
+		String cachedCapeUrl = CapeCacheManager.getInstance().getCapeUrl(this.username);
+
+		if (cachedCapeUrl != null && !cachedCapeUrl.isEmpty()) {
+			this.playerCloakUrl = cachedCapeUrl;
+			this.cloakUrl = this.playerCloakUrl;
+			this.capeNeedsUpdate = true; // Signal that the cape might have been updated from cache
+		} else {
+			// If not in persistent cache, try to fetch the capeType from the custom database asynchronously
+			// Set a default Minecraft cape URL while fetching to avoid a blank cape
+			this.playerCloakUrl = "http://s3.amazonaws.com/MinecraftCloaks/" + this.username + ".png";
+			this.cloakUrl = this.playerCloakUrl;
+			this.capeNeedsUpdate = true; // Signal that the cape might have been updated to default
+
+			final EntityPlayer player = this; // Capture 'this' for the anonymous inner class
+
+			CapeManager.fetchAndCacheCapeTypeAsync(this.username, new CapeManager.CapeTypeCallback() {
+				@Override
+				public void onCapeTypeFetched(String username, String capeType) {
+					String finalCapeUrl;
+					if (capeType != null && !"none".equalsIgnoreCase(capeType) && !capeType.isEmpty()) {
+						// Construct the local cape path using the fetched capeType
+						finalCapeUrl = "/cape/" + capeType + ".png";
+					} else {
+						// Fallback to default Minecraft cape URL if no custom cape type is found
+						finalCapeUrl = "http://s3.amazonaws.com/MinecraftCloaks/" + username + ".png";
+					}
+
+					// Update the player's cloak URL
+					player.playerCloakUrl = finalCapeUrl;
+					player.cloakUrl = finalCapeUrl;
+					player.capeNeedsUpdate = true; // Signal that the cape has been updated
+
+					// Store the constructed URL (local path or default Minecraft URL) in the persistent cache
+					CapeCacheManager.getInstance().putCapeUrl(username, finalCapeUrl);
+				}
+			});
+		}
 	}
 
 	// specialized for certain usernames
 	public void updateSpecialCloak(String url) {
 		this.playerCloakUrl = url;
 		this.cloakUrl = this.playerCloakUrl;
+		// Cache special cloaks as well in the persistent cache
+		CapeCacheManager.getInstance().putCapeUrl(this.username, url);
+		this.capeNeedsUpdate = true; // Signal that the cape has been updated
 	}
 
 
