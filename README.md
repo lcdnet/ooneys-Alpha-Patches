@@ -35,6 +35,10 @@ Prism Launcher: https://prismlauncher.org/
 
 Personally, I created this as a way for me to get into Minecraft modding. I mainly work in Java, and what better way to use some of this experience than to work with the most popular Java program ever made! Besides, I've been playing Minecraft since this time, but I was very young. This project, I can say, has definitely revitalized my love for the simpler times of this game. It allows me to be creative in a different aspect, and I believe mod-making gives me way way way way more possibilities than the constraints of Alpha Minecraft's block palette.
 
+This mod is compatible* with my other mod that adds Nether Reactors.
+
+*Versions that have "-U" at the end are not compatible with the nether reactor mod.
+
 
 ### Features (In order, descending version)
 
