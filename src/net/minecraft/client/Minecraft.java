@@ -842,7 +842,7 @@ public abstract class Minecraft implements Runnable {
 													this.thePlayer.dropPlayerItemWithRandomChoice(this.thePlayer.inventory.decrStackSize(this.thePlayer.inventory.currentItem, 1), false);
 												}
 
-												if(this.isMultiplayerWorld() && Keyboard.getEventKey() == this.options.keyBindChat.keyCode) {
+												if(Keyboard.getEventKey() == this.options.keyBindChat.keyCode) {
 													this.displayGuiScreen(new GuiChat());
 												}
 											}
