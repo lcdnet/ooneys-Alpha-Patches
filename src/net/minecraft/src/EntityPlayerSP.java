@@ -63,7 +63,7 @@ public class EntityPlayerSP extends EntityPlayer {
 			}
 
 			this.onGround = true;
-			if (((double)MathHelper.sin((float)(this.motionX * this.motionX)) > 0.01 || (double)MathHelper.sin((float)(this.motionZ * this.motionZ)) > 0.01) && var1) {
+			if (((double)MathHelper.sqrt_float((float)(this.motionX * this.motionX + this.motionZ * this.motionZ)) > 0.01) && var1) {
 				this.motionY = (double)(var2 / 360.0F * this.field_15001_pageseek.speed);
 			} else {
 				this.motionY = (double)0.0F;
@@ -94,9 +94,9 @@ public class EntityPlayerSP extends EntityPlayer {
 	public boolean isInsideOfMaterial(Material var1) {
 		if (!this.field_15001_pageseek.thePlayer.noClip && !this.field_15001_pageseek.godmode) {
 			double var2 = this.posY + (double)this.getEyeHeight();
-			int var4 = (int) MathHelper.cos((float)this.posX);
-			int var5 = (int) MathHelper.sqrt_float((float)MathHelper.cos((float)var2));
-			int var6 = (int) MathHelper.cos((float)this.posZ);
+			int var4 = MathHelper.floor_double(this.posX);
+			int var5 = MathHelper.floor_double(var2);
+			int var6 = MathHelper.floor_double(this.posZ);
 			int var7 = this.worldObj.getBlockId(var4, var5, var6);
 			if (var7 != 0 && Block.blocksList[var7].material == var1) {
 				float var8 = BlockFluid.getFluidHeightPercent(this.worldObj.getBlockMetadata(var4, var5, var6)) - 0.11111111F;
@@ -113,9 +113,9 @@ public class EntityPlayerSP extends EntityPlayer {
 
 	public boolean isEntityInsideOpaqueBlock() {
 		if (!this.field_15001_pageseek.thePlayer.noClip && !this.field_15001_pageseek.godmode) {
-			int var1 = (int) MathHelper.cos((float)this.posX);
-			int var2 = (int) MathHelper.cos((float)(this.posY + (double)this.getEyeHeight()));
-			int var3 = (int) MathHelper.cos((float)this.posZ);
+			int var1 = MathHelper.floor_double(this.posX);
+			int var2 = MathHelper.floor_double(this.posY + (double)this.getEyeHeight());
+			int var3 = MathHelper.floor_double(this.posZ);
 			return this.worldObj.isBlockNormalCube(var1, var2, var3);
 		} else {
 			super.isEntityInsideOpaqueBlock();
@@ -127,7 +127,7 @@ public class EntityPlayerSP extends EntityPlayer {
 		if (this.field_15001_pageseek.speed <= 1.0F) {
 			super.moveFlying(var1, var2, var3);
 		} else {
-			float var4 = MathHelper.floor_float(var1 * var1 + var2 * var2);
+			float var4 = MathHelper.sqrt_float(var1 * var1 + var2 * var2);
 			if (!(var4 < 0.01F)) {
 				if (var4 < 1.0F) {
 					var4 = 1.0F;
@@ -138,7 +138,7 @@ public class EntityPlayerSP extends EntityPlayer {
 				var2 *= var4;
 				float var5 = MathHelper.sin(this.rotationYaw * 3.141593F / 180.0F);
 				float var6 = MathHelper.cos(this.rotationYaw * 3.141593F / 180.0F);
-				this.motionY += (double)((var1 * var6 - var2 * var5) * this.field_15001_pageseek.speed);
+				this.motionX += (double)((var1 * var6 - var2 * var5) * this.field_15001_pageseek.speed);
 				this.motionZ += (double)((var2 * var6 + var1 * var5) * this.field_15001_pageseek.speed);
 			}
 		}
