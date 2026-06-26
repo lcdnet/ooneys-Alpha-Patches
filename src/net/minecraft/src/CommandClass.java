@@ -969,7 +969,7 @@ public class CommandClass {
 
     public void sendModLoadedMessage() {
         if (this.mc != null && this.mc.ingameGUI != null) {
-            this.mc.ingameGUI.addChatMessage("§aOld-MC-Commands §7-- §bgithub.com/Skellz64");
+            this.mc.ingameGUI.addChatMessage("§aSPC loaded.");
         }
 
     }
