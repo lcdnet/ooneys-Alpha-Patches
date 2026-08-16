@@ -1,3 +1,38 @@
+diff --git a/../src/.DS_Store b/../src/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..7aa48dd20f3a7da5f9c83e37e5a6fa63c41ce44f
+GIT binary patch
+literal 8196
+zcmeHMU2GIp6u#fIzziMe07Y8d2@8cFWPwr&Eq`YFr~DV#mTt?>GP^U<f$2=yncWsj
+zV`Jir{1~4!{_~{K$b$j@UNlh=eN;5T7-NVU^#v1sQF-vp+*y8Fn)qOh;@o8Jx#!$-
+z?wxbyJNNFr%NRpTL0`#OHDgSq$EQjKRd*<UzyFLYLMSOG3bJSJK-O}y#J!yz7^fWx
+zq6kD0h$0Y0Ac{Z~fqz2;XwUYGIKjTpd!ssvKoo)hWd!{7Ax@7^lOY}DG*~*Q3XT9o
+z{Ubn7sIB-7qVbR>LpsVS^-uvfCCW_^9x=epNgfaNk|7=Cl$$ezhYy4^BRruXn4QLt
+z2kHz-PNO=CKoo)T5%ANejM>a!UUu--^SfobUR~W65X#CYO`bxfV#@whpEH>9G_T;c
+zX!*T9*XcM`w$#?LdrV_6qg1szwx^l4kq-<^-5`~H-KMQOgDp<M*4@B1#XBS_8Kq`;
+zxPHy*HHmnAQ~gLHKD@TRE)j27(=ak3iL+~0tlynEV)fh3N$vr{Re((!<I$;`?pSWI
+zm0w4crLqIuoi9UoL}_Y;JWcIR_w??SGs?^&y?4ieXF9gK$H==xGfJgP{%y`V_RhTF
+z_jl(UtI%(|8D&OJvvLJX^NeQ8N}0zEl2y97ykl8A9oO`S=}CLWkmvV}>q_^!PTp$`
+z21}bXKG#wTuCd#oLCvDkMnk(*V_buDZu*>g3-4Q2-?$;!zIpqu%azKEnX{^7xt9WI
+zd*(x?k?$Hbb+4~Sb908RoA#mZqUoAh%jmSVeq#m_l61MUx@PXZF;$&NHC@P>M+>HR
+zOsN&cV2=2FRo<u5J8gG#e->T2AksKA`=a@(y4UY%%^Otfp}~@+s@&<4^NJQKE?*(b
+zoks`(itE1unXYP()h<iR8kV9<e4eJYvf5qb@mIEn!i`n3n$9`>{p6w>%9>kL^?*O^
+zHqG@q1`L~C=~6iN1Ju{+_Gx*eV~`LSO1F?S_@pHFjoNk7bAnEa#t!nL#~-d)*8?Bs
+zR@YRjDYZ*fJ{2>HV%kNMP*0zggI}yIeVW?jQr@h6Px~fl1%a+j)^V{!yPC@CSsUBN
+z4zfHOW~bRx>?}LaK4cf!=j?0tBfG|a127p9rlJB>n2Uu-U^N=igtcfv2X<jMQrL$+
+zm^cg<LpY9MoWP@a45x4!XYeGR!wYy3XYmSN$9Y`98+aF&@G(BYXSj-Q@g2U$HT;f0
+za9x-r%n_=E8exHu5S9tcg+`%CSSPF(b_g9pTF`{Uf+GxZ2ZU0h?dN={7LHLXTsJ7u
+z!h1jA+?^9G_TZ+?Tekjp679-#o?5f-nG;{MbVWnc#^xIk<d`kN^j7c(h`%jQ0>lT1
+z7=zZ!JO|}@rTiS5j9ru}#*pY|tTKgbFOV0Clq$+3&Muahh?FGCWX>jH%SB2{MF?1V
+zWo(s1$)}WYHW6!-L<O8#CvT7_4V7}vs&Z126c#YC)>ykpsicU17sju!tLz8%GrLY0
+zpN?6m#$wbFvhT+x>>zCW$nL@cWS}7n9sRH|fTM)+6Bxn67{wzvNhm*q$MFQ7#xr;p
+z&*LS$Oh|tfuMy7Q#9Md=@8bhp#780GzaqT<gkQ#BczX%GoZ{D;7%ryrw&mD|NK!)l
+z?aFr}SH_*H_Rs(A6W{;ejjl&NMG=T15JmvyZK<{vVkTPp{IhnPo`dxG#n&6<G%%s+
+qwu=DbZ~S3M?Kr9WHp!5Va!L{^|M*3~U-+RN?f=pKAAs{NuKol8%V&T9
+
+literal 0
+HcmV?d00001
+
 new file mode 100644
 index 0000000000000000000000000000000000000000..ca151762058c862d85a99f6ffa3b02108fa43991
 GIT binary patch
@@ -91,33 +126,71 @@ HcmV?d00001
 
 diff --git a/../src/net/.DS_Store b/../src/net/.DS_Store
 new file mode 100644
-index 0000000000000000000000000000000000000000..a2ec5f8b690618a738a8a20c33716a3b9e04721d
+index 0000000000000000000000000000000000000000..678f50a8b3e4f2821bb9dd1b4462c0ca5df53691
 GIT binary patch
 literal 8196
-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
+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
+E--;c97ytkO
+
+literal 0
+HcmV?d00001
+
+diff --git a/../src/net/minecraft/.DS_Store b/../src/net/minecraft/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..9376d3efd1e85324be517e2306f2ae9b07cf77b4
+GIT binary patch
+literal 8196
+zcmeHMU2GIp6u#fIzziMe07Y8d2@8cFWPwr&Eq`YFr~DV#mTt?>GP^U<f$2=yncWsj
+zV`Jir{1~4!{_~{K$b$j@UNlh=eN;5T7-NVU^#v1sQF-vp+*y8Fn)qOh;@o8Jx#!$-
+z?wxbyJNNFr%NRpTL0`#OHDgSq$EQjKRd*<UzyFLYLMSOG3bJSJK-O}y#J!yz7^fWx
+zq6kD0h$0Y0Ac{Z~fqz2;XwUYGIKjTpd!ssvKoo)hWd!{7Ax@7^lOY}DG*~*Q3XT9o
+z{Ubn7sIB-7qVbR>LpsVS^-uvfCCW_^9x=epNgfaNk|7=Cl$$ezhYy4^BRruXn4QLt
+z2kHz-PNO=CKoo)T5%ANejJYh&a@oOK&+nG$dUbVQKqxDpG<gb@iYfb3ea>LY)4YP)
+zqUHDcT&Lq$*-~4}?lFzQj8fI=*q&zEMm{hwb%Rv)b(^;C47NB0TXzH76z`CzWR#lW
+z;rcbJ*CgWgP4y#*`0(2Lx<tHTO~c5DB+jl~v3_^vh}Ca9C%Fd*R{=I{j7O(#x?{P;
+zR(>5(mdXxrcfJhW5v8dW@-($O-P5~Q&L}gB^xho<p6S@`9wYA(%_x;F`L{Xe*gNxv
+z-`|~ctU|x-W|SE@&B_%l%`=)UD`g%xNLK0Q@{VQgbX?OPrYG$gL!RF^t}ET^I(e@(
+z7%Xkl_*_dVxW;aS1~rRD8x8GNjd2aqx#@G}Exd18edC5?`{wPtE>|iuX3naT<z5P;
+z?U@gmM!sv%)V;nQ&CMCMZrX>si>7O4Eu+)c`i&V#NYdrX>YBOt##D78)pQ|i9xa&O
+zF{M@%gE`{!Re7II@3h^~{aJM7f=J`g?2G2B>R!L6HE&R@hXzZQs&c1G&MR7|xO{~y
+zcOD@GD6ansWV)(BR=X@MYgmdd@p+oo%4&C!$6whR3O82CYC7li_mhimC~Iy})dT*t
+z+cekf7%*&lrAy)54^UsP+o$D?jzL0TDBVKR;FFTvH)_{S&j~sy8av2~9)GxIT@QSi
+zTU}GBrqnJ``Bcm(ifI>3LOp#}4t}w=^l567OL?>QJ?)#I6$H9AS;xf^?P@BkXKid7
+zJ4iV;%uchX*jaX-eaJ4d&)L`PM|O?<24FHIOhpB%Fc%Avz-lz232V`U4(!5iq_7Wt
+zFmV_zhHxCiIDtp;7*63d&frNrhZpc7&f*okj`O&HH}Ebl;bVM)&u|sr;yZkgYxo_1
+z;JPqLm?KmRHNpZRAuJP?3yngPuufPn><~JHw4e!x1xFa-4hW@0+t2w@EgYj(xNcCQ
+zh4+5KxjQFX?7>Z&w`~3IB-)kfJhf)uGbg@i>57J?jm<Y8$T3@j>8;=o5Pw^q1c(n1
+zF$S%dc@E0+O8Gf98M`P|j3Lp_SY-;=ULY?NDOHq7oLww05h+QO$(&8ZmWz~@iV(2!
+z%GfH2l20k)Y$Dbui3&KgPTn9<8Y<<SRpq24DJ)=Ot+95IQb`g2E{tDcSJ@BjXLg-1
+zJ{_}Ajm4-VWZ#cX*g@F#k==y@$Us9DI{IN_07nVsCoqDCF^WfUl2CpIkK+kEjc4#I
+zp2tggnUMY}UL%~piMQ|$-p2>Hh>t?Ve?@rz3BQcN@b(gVImNFxF<eaLZOgF_k)(w9
+z+m-J|u8ccX?VtbKC%*r`8(oiliXsq2AdCRY+fr>U#7wmG`Dg7oJqPLWi?27zX<$Ot
+qZ5IK=-}u9j+Hq3#ZIU4!<&-2;{_%@|zwkpl+W({dKLF=lT>S|*U1x;=
 
 literal 0
 HcmV?d00001
@@ -739,7 +812,7 @@ rename from ../clean_src/net.minecraft/src/BlockIce.java
 rename to ../src/net/minecraft/src/BlockIce.java
 diff --git a/../src/net/minecraft/src/BlockJukeBox.java b/../src/net/minecraft/src/BlockJukeBox.java
 new file mode 100644
-index 00000000..ba05ae94
+index 00000000..bd94c3c6
 --- /dev/null
 +++ b/../src/net/minecraft/src/BlockJukeBox.java
 @@ -0,0 +1,95 @@
@@ -749,6 +822,7 @@ index 00000000..ba05ae94
 +
 +public class BlockJukeBox extends Block {
 +    private Minecraft mc;
++
 +	protected BlockJukeBox(int var1, int var2) {
 +		super(var1, var2, Material.wood);
 +	}
@@ -791,7 +865,6 @@ index 00000000..ba05ae94
 +	}
 +
 +    public void insertRecord(World world, int x, int y, int z, String recordName) {
-+        // Set the block metadata to indicate a record is inserted
 +        int metadata = recordName.equals("13") ? 1 : (recordName.equals("cat") ? 2 : 0);
 +        world.setBlockMetadataWithNotify(x, y, z, metadata);
 +
@@ -6410,13 +6483,13 @@ similarity index 100%
 rename from ../clean_src/net.minecraft/src/IProgressUpdate.java
 rename to ../src/net/minecraft/src/IProgressUpdate.java
 diff --git a/../clean_src/net.minecraft/src/IWorldAccess.java b/../src/net/minecraft/src/IWorldAccess.java
-similarity index 88%
+similarity index 86%
 rename from ../clean_src/net.minecraft/src/IWorldAccess.java
 rename to ../src/net/minecraft/src/IWorldAccess.java
-index 210cd3ad..3f5baea6 100644
+index 210cd3ad..86d8aaff 100644
 --- a/../clean_src/net.minecraft/src/IWorldAccess.java
 +++ b/../src/net/minecraft/src/IWorldAccess.java
-@@ -15,7 +15,7 @@ public interface IWorldAccess {
+@@ -15,7 +15,9 @@ public interface IWorldAccess {
  
  	void updateAllRenderers();
  
@@ -6424,6 +6497,8 @@ index 210cd3ad..3f5baea6 100644
 +	void playRecord(String var1, int var2, int var3, int var4, String overlayText);
  
  	void doNothingWithTileEntity(int var1, int var2, int var3, TileEntity var4);
++
++	void unused();
  }
 diff --git a/../clean_src/net.minecraft/src/ImageBuffer.java b/../src/net/minecraft/src/ImageBuffer.java
 similarity index 100%
@@ -6627,14 +6702,15 @@ index 00000000..0df497a5
 \ No newline at end of file
 diff --git a/../src/net/minecraft/src/ItemRecord.java b/../src/net/minecraft/src/ItemRecord.java
 new file mode 100644
-index 00000000..f1e26d83
+index 00000000..ceb3c808
 --- /dev/null
 +++ b/../src/net/minecraft/src/ItemRecord.java
-@@ -0,0 +1,26 @@
+@@ -0,0 +1,24 @@
 +package net.minecraft.src;
 +
 +public class ItemRecord extends Item {
 +	private String recordName;
++    private boolean unused = false;
 +
 +	protected ItemRecord(int var1, String var2) {
 +		super(var1);
@@ -6645,11 +6721,8 @@ index 00000000..f1e26d83
 +    @Override
 +    public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int side) {
 +        if (world.getBlockId(x, y, z) == Block.jukebox.blockID && world.getBlockMetadata(x, y, z) == 0) {
-+            // Insert the record into the jukebox
 +            BlockJukeBox jukebox = (BlockJukeBox) Block.blocksList[Block.jukebox.blockID];
 +            jukebox.insertRecord(world, x, y, z, this.recordName);
-+
-+            // Consume the record
 +            --stack.stackSize;
 +            return true;
 +        }
@@ -7736,9 +7809,20 @@ similarity index 100%
 rename from ../clean_src/net.minecraft/src/Pathfinder.java
 rename to ../src/net/minecraft/src/Pathfinder.java
 diff --git a/../clean_src/net.minecraft/src/PlayerController.java b/../src/net/minecraft/src/PlayerController.java
-similarity index 100%
+similarity index 98%
 rename from ../clean_src/net.minecraft/src/PlayerController.java
 rename to ../src/net/minecraft/src/PlayerController.java
+index e51c7ccb..9a1692a7 100644
+--- a/../clean_src/net.minecraft/src/PlayerController.java
++++ b/../src/net/minecraft/src/PlayerController.java
+@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
+ public class PlayerController {
+ 	protected final Minecraft mc;
+ 	public boolean isInTestMode = false;
++	private final boolean unused = false;
+ 
+ 	public PlayerController(Minecraft var1) {
+ 		this.mc = var1;
 diff --git a/../clean_src/net.minecraft/src/PlayerControllerCreative.java b/../src/net/minecraft/src/PlayerControllerCreative.java
 similarity index 100%
 rename from ../clean_src/net.minecraft/src/PlayerControllerCreative.java
@@ -7883,7 +7967,7 @@ diff --git a/../clean_src/net.minecraft/src/RenderGlobal.java b/../src/net/minec
 similarity index 97%
 rename from ../clean_src/net.minecraft/src/RenderGlobal.java
 rename to ../src/net/minecraft/src/RenderGlobal.java
-index fdbe1ced..111b5ec2 100644
+index fdbe1ced..96eb433e 100644
 --- a/../clean_src/net.minecraft/src/RenderGlobal.java
 +++ b/../src/net/minecraft/src/RenderGlobal.java
 @@ -1,16 +1,13 @@
@@ -8008,6 +8092,15 @@ index fdbe1ced..111b5ec2 100644
  		if(var1.skinUrl != null) {
  			this.renderEngine.releaseImageData(var1.skinUrl);
  		}
+@@ -1110,4 +1135,7 @@ public class RenderGlobal implements IWorldAccess {
+ 
+ 	public void doNothingWithTileEntity(int var1, int var2, int var3, TileEntity var4) {
+ 	}
++
++	public void unused() {
++	}
+ }
+\ No newline at end of file
 diff --git a/../clean_src/net.minecraft/src/RenderHelper.java b/../src/net/minecraft/src/RenderHelper.java
 similarity index 99%
 rename from ../clean_src/net.minecraft/src/RenderHelper.java
@@ -9033,7 +9126,7 @@ diff --git a/../clean_src/net.minecraft/src/World.java b/../src/net/minecraft/sr
 similarity index 86%
 rename from ../clean_src/net.minecraft/src/World.java
 rename to ../src/net/minecraft/src/World.java
-index ecc1bbaa..3c2c3585 100644
+index ecc1bbaa..5e844141 100644
 --- a/../clean_src/net.minecraft/src/World.java
 +++ b/../src/net/minecraft/src/World.java
 @@ -1,18 +1,7 @@
@@ -9339,7 +9432,7 @@ index ecc1bbaa..3c2c3585 100644
  					if(this.chunkExists(var2 >> 4, var4 >> 4)) {
  						Chunk var6 = this.getChunkFromChunkCoords(var2 >> 4, var4 >> 4);
  						var6.setLightValue(var1, var2 & 15, var3, var4 & 15, var5);
-@@ -838,9 +951,9 @@ public class World implements IBlockAccess {
+@@ -838,11 +951,10 @@ public class World implements IBlockAccess {
  
  	}
  
@@ -9349,9 +9442,11 @@ index ecc1bbaa..3c2c3585 100644
 -			((IWorldAccess)this.worldAccesses.get(var5)).playRecord(var1, var2, var3, var4);
 +			((IWorldAccess)this.worldAccesses.get(var5)).playRecord(var1, var2, var3, var4, overlayText);
  		}
- 
+-
  	}
-@@ -917,7 +1030,7 @@ public class World implements IBlockAccess {
+ 
+ 	public void spawnParticle(String var1, double var2, double var4, double var6, double var8, double var10, double var12) {
+@@ -917,7 +1029,7 @@ public class World implements IBlockAccess {
  
  		for(int var9 = var3; var9 < var4; ++var9) {
  			for(int var10 = var7; var10 < var8; ++var10) {
@@ -9360,7 +9455,7 @@ index ecc1bbaa..3c2c3585 100644
  					for(int var11 = var5 - 1; var11 < var6; ++var11) {
  						Block var12 = Block.blocksList[this.getBlockId(var9, var11, var10)];
  						if(var12 != null) {
-@@ -1039,7 +1152,7 @@ public class World implements IBlockAccess {
+@@ -1039,7 +1151,7 @@ public class World implements IBlockAccess {
  
  	public int getTopSolidOrLiquidBlock(int var1, int var2) {
  		Chunk var3 = this.getChunkFromBlockCoords(var1, var2);
@@ -9369,7 +9464,7 @@ index ecc1bbaa..3c2c3585 100644
  		var1 &= 15;
  
  		for(var2 &= 15; var4 > 0; --var4) {
-@@ -1146,7 +1259,7 @@ public class World implements IBlockAccess {
+@@ -1146,7 +1258,7 @@ public class World implements IBlockAccess {
  		int var2 = MathHelper.floor_double(var1.posX);
  		int var3 = MathHelper.floor_double(var1.posZ);
  		byte var4 = 16;
@@ -9378,7 +9473,7 @@ index ecc1bbaa..3c2c3585 100644
  			var1.lastTickPosX = var1.posX;
  			var1.lastTickPosY = var1.posY;
  			var1.lastTickPosZ = var1.posZ;
-@@ -1463,18 +1576,31 @@ public class World implements IBlockAccess {
+@@ -1463,18 +1575,31 @@ public class World implements IBlockAccess {
  	}
  
  	public boolean updatingLighting() {
@@ -9419,7 +9514,7 @@ index ecc1bbaa..3c2c3585 100644
  	}
  
  	public void scheduleLightingUpdate(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {
-@@ -1482,32 +1608,51 @@ public class World implements IBlockAccess {
+@@ -1482,32 +1607,51 @@ public class World implements IBlockAccess {
  	}
  
  	public void scheduleLightingUpdate_do(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7, boolean var8) {
@@ -9494,7 +9589,7 @@ index ecc1bbaa..3c2c3585 100644
  	}
  
  	public void calculateInitialSkylight() {
-@@ -1534,6 +1679,14 @@ public class World implements IBlockAccess {
+@@ -1534,6 +1678,14 @@ public class World implements IBlockAccess {
  			this.saveWorld(false, (IProgressUpdate)null);
  		}
  
@@ -9509,7 +9604,7 @@ index ecc1bbaa..3c2c3585 100644
  		this.tickUpdates(false);
  		this.updateBlocksAndPlayCaveSounds();
  	}
-@@ -1596,7 +1749,7 @@ public class World implements IBlockAccess {
+@@ -1596,7 +1748,7 @@ public class World implements IBlockAccess {
  				var7 = var6 & 15;
  				var8 = var6 >> 8 & 15;
  				var9 = this.getTopSolidOrLiquidBlock(var7 + var3, var8 + var4);
@@ -9518,7 +9613,7 @@ index ecc1bbaa..3c2c3585 100644
  					var10 = var14.getBlockID(var7, var9 - 1, var8);
  					if(var14.getBlockID(var7, var9, var8) == 0 && Block.snow.canPlaceBlockAt(this, var7 + var3, var9, var8 + var4)) {
  						this.setBlockWithNotify(var7 + var3, var9, var8 + var4, Block.snow.blockID);
-@@ -1608,25 +1761,40 @@ public class World implements IBlockAccess {
+@@ -1608,25 +1760,40 @@ public class World implements IBlockAccess {
  				}
  			}
  
@@ -9572,7 +9667,7 @@ index ecc1bbaa..3c2c3585 100644
  		} else {
  			if(var2 > 1000) {
  				var2 = 1000;
-@@ -1848,8 +2016,8 @@ public class World implements IBlockAccess {
+@@ -1848,8 +2015,8 @@ public class World implements IBlockAccess {
  			var13 = 0;
  		}
  
@@ -9583,7 +9678,7 @@ index ecc1bbaa..3c2c3585 100644
  		}
  
  		for(int var15 = var8; var15 <= var10; ++var15) {
-@@ -1933,4 +2101,8 @@ public class World implements IBlockAccess {
+@@ -1933,4 +2100,8 @@ public class World implements IBlockAccess {
  		}
  
  	}
