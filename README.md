@@ -42,7 +42,11 @@ This mod is compatible* with my other mod that adds Nether Reactors.
 
 ### Features (In order, descending version)
 
-#### LATEST (1.7.6) - CAPES!!!
+#### 1.8 - Customization Galore!!
+
+- Added customization when creating a world and customization for some of the features I had added previously that changes gameplay.
+
+#### 1.7.6 - CAPES!!!
 
 - Backported capes to alpha 1.1.2_01. Check the releases tab under that version and copy/paste the proxy information into your Java Arguments.
 
