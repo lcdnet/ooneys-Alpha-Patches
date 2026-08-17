@@ -6,6 +6,8 @@ This mod serves to provide an accessible alpha experience, without compromising 
 
 If you wish to have less tweaks than what the latest has, consider downgrading to an older version of this mod.
 
+<small>no AI was used in the making of this, this is solely to practice programming, not to roll out random features.</small>
+
 ##### Scroll down for installation help.
 
 <img width="2560" height="1080" alt="2025-10-07_03 42 34" src="https://github.com/user-attachments/assets/29937456-e006-47cf-8bee-835f7edf21fa" />
