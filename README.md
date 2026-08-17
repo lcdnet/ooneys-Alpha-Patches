@@ -39,7 +39,7 @@ Personally, I created this as a way for me to get into Minecraft modding. I main
 
 This mod is compatible* with my other mod that adds Nether Reactors.
 
-*Versions that have "-U" at the end are not compatible with the nether reactor mod.
+*1.7.6_02 is the last version compatible with the mod. The mod itself will have these patches attached to it later on.
 
 
 ### Features (In order, descending version)
